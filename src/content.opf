@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" xml:lang="en">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="pub-id">urn:uuid:a0d94810-b7b7-11e4-9f5c-0800200c9a66</dc:identifier>
+		<meta refines="#pub-id" property="identifier-type" scheme="xsd:string">uuid</meta>
+		
+		<dc:title id="title">Computing Machinery and Intelligence</dc:title>
+		<meta refines="#title" property="title-type">main</meta>
+		
+		<dc:creator id="author">Alan Turing</dc:creator>
+		<meta refines="#author" property="file-as">Turing, Alan</meta>
+		<meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+		
+		<dc:contributor id="editor">Mark A. Gibbs</dc:contributor>
+		<meta refines="#editor" property="file-as">Gibbs, Mark A.</meta>
+		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
+		
+		<dc:language>en</dc:language>
+		
+		<meta property="dcterms:modified">2015-02-20T00:00:00Z</meta>
+		
+		<dc:publisher>Oxford University Press</dc:publisher>
+		<meta property="dcterms:dateCopyrighted">1950</meta>
+		<dc:date>1950</dc:date>
+		
+		<!--dc:source id="src-id">urn:isbn:???</dc:source>
+		<meta refines="#src-id" property="identifier-type" scheme="onix:codelist5">15</meta>
+		<meta refines="#src-id" property="source-of">pagination</meta-->
+		
+		<dc:subject>Computers</dc:subject>
+		<dc:subject>Mathematics</dc:subject>
+		<dc:subject>Philosophy</dc:subject>
+		
+		<meta name="cover" content="image-cover"/>
+	</metadata>
+	<manifest>
+		<item id="cover"      href="text/cover.xhtml"      media-type="application/xhtml+xml" properties="svg"/>
+		
+		<item id="title-page" href="text/title-page.xhtml" media-type="application/xhtml+xml"/>
+		
+		<item id="section-1" href="text/section-1.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-2" href="text/section-2.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-3" href="text/section-3.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-4" href="text/section-4.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-5" href="text/section-5.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-6" href="text/section-6.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-7" href="text/section-7.xhtml" media-type="application/xhtml+xml"/>
+		
+		<item id="bibliography" href="text/bibliography.xhtml" media-type="application/xhtml+xml"/>
+		<item id="colophon"     href="text/colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		
+		<item id="style" href="style/style.css" media-type="text/css"/>
+		
+		<item id="image-cover"     href="img/cover.png" media-type="image/png"                             />
+		<item id="image-cover-svg" href="img/cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		
+		<item id="image-licence-pd"  href="img/publicdomain.svg" media-type="image/svg+xml"/>
+		<item id="image-licence-cc0" href="img/cc-zero.svg"      media-type="image/svg+xml"/>
+		
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"    properties="nav"/>
+		<item id="ncx" href="toc.ncx"   media-type="application/x-dtbncx+xml"                 />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover"      linear="no"/>
+		<itemref idref="title-page"            />
+		<itemref idref="toc"        linear="no"/>
+		<itemref idref="section-1"             />
+		<itemref idref="section-2"             />
+		<itemref idref="section-3"             />
+		<itemref idref="section-4"             />
+		<itemref idref="section-5"             />
+		<itemref idref="section-6"             />
+		<itemref idref="section-7"             />
+		<itemref idref="bibliography"          />
+		<itemref idref="colophon"              />
+	</spine>
+	<guide>
+		<reference type="cover"        title="Cover"                                href="text/cover.xhtml"     />
+		<reference type="title-page"   title="Title page"                           href="text/title-page.xhtml"/>
+		<reference type="toc"          title="Table of contents"                    href="toc.xhtml"            />
+		<reference type="text"         title="Computing Machinery and Intelligence" href="text/section-1.xhtml" />
+		<reference type="bibliography" title="Colohpon"                             href="text/colophon.xhtml"  />
+		<reference type="colophon"     title="Colohpon"                             href="text/colophon.xhtml"  />
+	</guide>
+</package>

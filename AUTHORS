@@ -1,0 +1,31 @@
+# "Computing Machinery and Intelligence" by Alan Turing EPUB ebook AUTHORS file
+# 
+# Copyright 2015 Mark A. Gibbs <indi.in.the.wired@gmail.com>
+# 
+# Copying and distribution of this file, with or without modification, are
+# permitted in any medium without royalty provided the copyright notice and this
+# notice are preserved. This file is offered as-is, without any warranty.
+# 
+# Also see the ChangeLog and THANKS files.
+
+
+
+Mark A. Gibbs                                      <indi.in.the.wired@gmail.com>
+--------------------------------------------------------------------------------
+
+  created      -> AUTHORS, ChangeLog, COPYING, INSTALL, NEWS, README, README.md,
+                  THANKS, Makefile, book.mk, .gitignore, src/content.opf,
+                  src/toc.ncx, src/toc.xhtml, src/text/cover.xhtml,
+                  src/text/title-page.xhtml, src/text/section-1.xhtml,
+                  src/text/section-3.xhtml, src/text/section-4.xhtml,
+                  src/text/section-5.xhtml, src/text/section-6.xhtml,
+                  src/text/section-7.xhtml, src/text/colophon.xhtml,
+                  src/text/bibliography.xhtml, src/style/style.css,
+                  src/img/cover.svg, src/img/cc-zero.svg,
+                  src/img/publicdomain.svg
+
+
+################################################################################
+# And of course, the original text of "Computing Machinery and Intelligence" was
+# written by Alan Turing
+################################################################################

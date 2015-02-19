@@ -1,0 +1,299 @@
+body {
+  line-height: 1.5;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  margin: 2.5em 5em;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+p.separated {
+  margin: 1.5em 0;
+}
+
+.no-indent {
+  text-indent: 0;
+}
+
+table {
+  border-spacing: 0;
+  margin: 1em auto;
+}
+
+th, td {
+  font-weight: normal;
+  min-width: 2em;
+  padding: 0 0.25em;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover { color: red; }
+
+abbr {
+  border: none;
+  text-decoration: none;
+}
+
+cite {
+  font-style: italic;
+}
+
+q { quotes: "“" "”" "‘" "’"; }
+q::before { content: open-quote; }
+q::after { content: close-quote; }
+
+.nobr {
+  white-space: nowrap;
+}
+
+.first-words {
+  font-variant: small-caps;
+}
+
+body > div:first-of-type > h1 {
+  display: none;
+}
+
+body > div:first-of-type > p {
+  display: none;
+}
+
+section[id^=section-] {
+  counter-reset: subsection;
+}
+
+section[id^=section-] h1 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: justify;
+  text-transform: none;
+}
+
+section[id^=section-] > h1 {
+  margin: 2rem 0 0.5rem;
+}
+
+section[id^=section-] > h1 .section-number {
+  font-style: normal;
+}
+
+section[id^=section-] > h1::after {
+  content: '.';
+}
+
+section[id^=subsection-] {
+  counter-increment: subsection;
+}
+
+section[id^=subsection-] > h1 {
+  display: run-in;
+  margin: 0;
+}
+
+section[id^=subsection-] > h1::before {
+  content: '(' counter(subsection) ') ';
+  font-style: normal;
+}
+
+section[id^=subsection-] > h1::after {
+  content: '.';
+}
+
+.conversation {
+  margin: 0.5em 0 0.5em 1.5em;
+}
+
+.conversation.no-indent {
+  margin-left: 0;
+}
+
+.conversation .speaker {
+  margin-right: 1em;
+}
+
+.conversation > dt {
+  float: left;
+}
+
+.list-lower-alpha,
+.list-lower-roman {
+  counter-reset: list;
+}
+
+.list-lower-alpha {
+  list-style: lower-alpha inside;
+  padding: 0;
+  margin: 0;
+}
+
+.list-lower-roman {
+  list-style: lower-roman inside;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.list-lower-alpha > li::before {
+  content: '(' counter(list, lower-alpha) ')';
+  min-width: 2.5em;
+}
+
+.list-lower-roman > li::before {
+  content: '(' counter(list, lower-roman) ')';
+  min-width: 3.5em;
+}
+
+.list-lower-alpha > li,
+.list-lower-roman > li {
+  list-style: none;
+}
+
+.list-lower-alpha > li::before,
+.list-lower-roman > li::before {
+  counter-increment: list;
+  display: inline-block;
+  margin-right: 0.5em;
+  text-align: right;
+}
+
+.list-table {
+  display: table;
+  margin: 1em auto;
+  padding: 0;
+}
+
+.list-table > li {
+  display: table-row;
+}
+
+.list-table > li > * {
+  display: table-cell;
+}
+
+.list-table > li > *:nth-child(even) {
+  padding: 0 0.5em;
+}
+
+.ditto-cell {
+  display: table;
+  width: 100%;
+}
+
+.ditto-cell > * {
+  display: table-cell;
+  text-align: center;
+}
+
+.ditto-cell > *:first-child {
+  text-align: justify;
+  width: 30%;
+}
+
+#table-state-internal tr:nth-child(3) td {
+  border-top: 1px solid black;
+}
+
+#table-state-internal tr:nth-child(4) td {
+  border-bottom: 1px solid black;
+}
+
+#table-state-internal td:first-of-type {
+  border-left: 1px solid black;
+}
+
+#table-state-internal td:last-of-type {
+  border-right: 1px solid black;
+}
+
+#table-state-output th {
+  text-align: left;
+}
+
+#toc h1 {
+  display: none;
+}
+
+#toc ol {
+  list-style: none inside;
+}
+
+#toc li a {
+  font-style: italic;
+}
+
+#toc li a::after {
+  content: '.';
+}
+
+#toc > ol {
+  counter-reset: toc-1;
+  padding: 0;
+}
+
+#toc > ol > li {
+  counter-increment: toc-1;
+  counter-reset: toc-2;
+}
+
+#toc > ol > li::before {
+  content: counter(toc-1) '. ';
+  display: inline-block;
+  min-width: 1.5em;
+}
+
+#toc > ol > li > ol > li {
+  counter-increment: toc-2;
+}
+
+#toc > ol > li > ol > li::before {
+  content: '(' counter(toc-2) ') ';
+  display: inline-block;
+  min-width: 2em;
+}
+
+#bibliography ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#bibliography li {
+  margin-left: 0;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
+}
+
+#colophon .licence {
+  margin: 2em 0;
+  overflow: auto;
+  padding-left: 100px;
+  text-indent: 0;
+}
+
+#colophon .licence .mark {
+  float: left;
+  margin-left: -100px;
+}
+
+aside.footnote {
+  font-size: 85%;
+  line-height: 1.5em;
+  margin: 1rem 0;
+  text-align: justify;
+  text-indent: 1.5rem;
+}

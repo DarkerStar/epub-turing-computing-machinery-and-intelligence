@@ -1,0 +1,62 @@
+XXXX-XX-XX  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
+     
+     * COPYING: New project copyright documentaion.
+     
+     * AUTHORS: New project contributor records.
+     
+     * THANKS: New project contributor records.
+     
+     * INSTALL: New installation guidelines.
+     
+     * README: New package information and documentation file.
+     
+     * README.md: New package information and documentation file.
+     
+     * ChangeLog: New project change log.
+     
+     * NEWS: New project history file.
+     
+     * Makefile: New makefile.
+     
+     * book.mk: New make configuration file.
+     
+     * src/content.opf: New EPUB 3 package document.
+     
+     * src/toc.xhtml: New EPUB 3 navigation document.
+     
+     * src/toc.ncx: New EPUB 2 navigation document.
+     
+     * src/text/cover.xhtml: New EPUB 3 content document.
+     
+     * src/text/title-page.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-1.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-2.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-3.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-4.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-5.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-6.xhtml: New EPUB 3 content document.
+     
+     * src/text/section-7.xhtml: New EPUB 3 content document.
+     
+     * src/text/colophon.xhtml: New EPUB 3 content document.
+     
+     * src/text/bibliography.xhtml: New EPUB 3 content document.
+     
+     * src/style/style.css: New EPUB 3 content document.
+     
+     * src/img/cover.svg: New EPUB 3 content document.
+     
+     * src/img/cc-zero.svg: New EPUB 3 content document.
+     
+     * src/img/publicdomain.svg: New EPUB 3 content document.
+
+
+# Copyright 2015 Mark A. Gibbs
+# Copying and distribution of this file, with or without modification, are
+# permitted provided the copyright notice and this notice are preserved.

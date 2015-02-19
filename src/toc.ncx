@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid"   content="urn:uuid:a0d94810-b7b7-11e4-9f5c-0800200c9a66"/>
+		<meta name="dtb:depth" content="2"/>
+	</head>
+	<docTitle>
+		<text>Computing Machinery and Intelligence</text>
+	</docTitle>
+	<docAuthor>
+		<text>Alan Turing</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="section-1">
+			<navLabel>
+				<text>1. The Imitation Game.</text>
+			</navLabel>
+			<content src="text/section-1.xhtml"/>
+		</navPoint>
+		<navPoint id="section-2">
+			<navLabel>
+				<text>2. Critique of the New Problem.</text>
+			</navLabel>
+			<content src="text/section-2.xhtml"/>
+		</navPoint>
+		<navPoint id="section-3">
+			<navLabel>
+				<text>3. The Machines Concerned in the Game.</text>
+			</navLabel>
+			<content src="text/section-3.xhtml"/>
+		</navPoint>
+		<navPoint id="section-4">
+			<navLabel>
+				<text>4. Digital Computers.</text>
+			</navLabel>
+			<content src="text/section-4.xhtml"/>
+		</navPoint>
+		<navPoint id="section-5">
+			<navLabel>
+				<text>5. Universality of Digital Computers.</text>
+			</navLabel>
+			<content src="text/section-5.xhtml"/>
+		</navPoint>
+		<navPoint id="section-6">
+			<navLabel>
+				<text>6. Contrary Views on the Main Question.</text>
+			</navLabel>
+			<content src="text/section-6.xhtml"/>
+			<navPoint id="section-6-arg-1">
+				<navLabel>
+					<text>(1) The Theological Objection.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-1"/>
+			</navPoint>
+			<navPoint id="section-6-arg-2">
+				<navLabel>
+					<text>(2) The “Heads in the Sand” Objection.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-2"/>
+			</navPoint>
+			<navPoint id="section-6-arg-3">
+				<navLabel>
+					<text>(3) The Mathematical Objection.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-3"/>
+			</navPoint>
+			<navPoint id="section-6-arg-4">
+				<navLabel>
+					<text>(4) The Argument from Consciousness.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-4"/>
+			</navPoint>
+			<navPoint id="section-6-arg-5">
+				<navLabel>
+					<text>(5) Arguments from Various Disabilities.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-5"/>
+			</navPoint>
+			<navPoint id="section-6-arg-6">
+				<navLabel>
+					<text>(6) Lady Lovelace’s Objection.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-6"/>
+			</navPoint>
+			<navPoint id="section-6-arg-7">
+				<navLabel>
+					<text>(7) Argument from Continuity in the Nervous System.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-7"/>
+			</navPoint>
+			<navPoint id="section-6-arg-8">
+				<navLabel>
+					<text>(8) The Argument from Informality of Behaviour.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-8"/>
+			</navPoint>
+			<navPoint id="section-6-arg-9">
+				<navLabel>
+					<text>(9) The Argument from Extrasensory Perception.</text>
+				</navLabel>
+				<content src="text/section-6.xhtml#subsection-6-9"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="section-7">
+			<navLabel>
+				<text>7. Learning Machines.</text>
+			</navLabel>
+			<content src="text/section-7.xhtml"/>
+		</navPoint>
+	</navMap>
+</ncx>

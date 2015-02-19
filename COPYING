@@ -1,0 +1,16 @@
+"Computing Machinery and Intelligence" by Alan Turing EPUB ebook licence
+========================================================================
+
+
+
+The original text of "Computing Machinery and Intelligence", by Alan Turing, was
+published in 1950. It has been identified by Mark A. Gibbs as free of known
+copyright restrictions.
+
+The makefile `Makefile` is the
+[EPUB building makefile](https://github.com/DarkerStar/epub-build-makefile),
+which is released under the GPL v3. (See that project for licencing details.)
+
+All other content in this package, including edits to the original text, as well
+as the cover image and structural elements, except where otherwise noted, is
+released into the public domain.
