@@ -1,4 +1,4 @@
-book := computing-machinery-and-intelligence-by-alan-turing
+book := turing-computing-machinery-and-intelligence
 
 srcdir := src
 
