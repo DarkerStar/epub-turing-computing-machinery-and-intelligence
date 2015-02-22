@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="700" height="1000" viewBox="0 0 700 1000">
+	<title>Cover of “Computing Machinery and Intelligence”, by Alan Turing</title>
 	<defs>
 		<g id="person">
 			<path id="person-body" d="M 0,-135 H 45 A 10,10 0 0 1 55,-125 V -80 A 10,10 0 0 1 35,-80 V -112.5 A 2.5,2.5 0 0 0 30,-112.5 V -12.5 A 12.5,12.5 0 0 1 5,-12.5 V -65 A 5,5 0 0 0 -5,-65 V -12.5 A 12.5,12.5 0 0 1 -30,-12.5 V -112.5 A 2.5,2.5 0 0 0 -35,-112.5 V -80 A 10,10 0 0 1 -55,-80 V -125 A 10,10 0 0 1 -45,-135 Z"/>
