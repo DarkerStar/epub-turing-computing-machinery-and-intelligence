@@ -15,21 +15,27 @@
 		<meta refines="#editor" property="file-as">Gibbs, Mark A.</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
 		
+		<dc:description>Turing’s greatest contribution was his mathematical formalization of computing that formed the basis of modern computer science, but his interests went far beyond that. In this paper, published in the journal “Mind”, he considers the question of whether machines can think like humans. In a brilliant move, he sidesteps philosophical rumination by suggesting a simple, practical test based on a party game called “The Imitation Game”. Today, that test is known as “The Turing Test”.</dc:description>
+		
 		<dc:language>en</dc:language>
 		
-		<meta property="dcterms:modified">2015-02-20T00:00:00Z</meta>
+		<!-- Original publisher: Oxford University Press -->
+		<meta property="dcterms:dateCopyrighted">1950-10-01</meta>
 		
-		<dc:publisher>Oxford University Press</dc:publisher>
-		<meta property="dcterms:dateCopyrighted">1950</meta>
+		<dc:publisher>Indi’s ebook collection</dc:publisher>
 		<dc:date>1950</dc:date>
 		
-		<!--dc:source id="src-id">urn:isbn:???</dc:source>
-		<meta refines="#src-id" property="identifier-type" scheme="onix:codelist5">15</meta>
-		<meta refines="#src-id" property="source-of">pagination</meta-->
-		
+		<!-- BISAC subject headings -->
 		<dc:subject>Computers</dc:subject>
+		<dc:subject><!-- COMPUTERS / -->Intelligence (AI) &amp; Semantics</dc:subject>
+		<dc:subject><!-- COMPUTERS / Social Aspects / -->Human-Computer Interaction</dc:subject>
 		<dc:subject>Mathematics</dc:subject>
+		<dc:subject><!-- MATHEMATICS / -->Discrete Mathematics</dc:subject>
 		<dc:subject>Philosophy</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / Essays-->Philosophy essays</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / Mind &amp; Body-->Philosophy of Mind</dc:subject>
+		
+		<meta property="dcterms:modified">2015-03-03T03:00:00Z</meta>
 		
 		<meta name="cover" content="image-cover"/>
 	</metadata>
