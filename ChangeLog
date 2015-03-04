@@ -1,3 +1,14 @@
+2015-03-03  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
+     
+     * src/content.opf:
+          
+          * Added description.
+          
+          * Changed publishing information.
+          
+          * Changed subjects to BISAC.
+
+
 2015-02-24  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
      
      * COPYING: New project copyright documentaion.

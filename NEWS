@@ -1,3 +1,13 @@
+Version 0.2.0-alpha ----------------------------------------------- [2015-03-03]
+
+*   Added description tag to metadata.
+
+*   Changed publishing information to reflect the publication of the book rather
+    than the original paper (as it's supposed to be according to the EPUB spec).
+
+*   Books's subject list now uses BISAC categories.
+
+
 Version 0.0.1-alpha ----------------------------------------------- [2015-02-24]
 
 *   "Computing Machinery and Intelligence" by Alan Turing EPUB ebook first release.
